@@ -1,13 +1,17 @@
 {
   "orgName": "Demo company",
-  "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "sourceOrg": "00Daj0000086wuLEAQ",
+  "features": [
+              "DevOpsCenter",
+              "WorkThanksPref"
+            ],
   "settings": {
-    "lightningExperienceSettings": {
-      "enableS1DesktopEnabled": true
-    },
-    "mobileSettings": {
-      "enableS1EncryptedStoragePref2": false
-    }
+      "devHubSettings": {
+          "enableDevOpsCenterGA": true
+          },
+          "workDotComSettings": {
+        "enableWorkThanksPref": true,
+        "enableProfileSkills": true
+    }  
+      }  
   }
-}
