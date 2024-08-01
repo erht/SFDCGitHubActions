@@ -1,3 +1,4 @@
+@isTest
 public with sharing class TestReleaseCandidate {
     @isTest static void testWarmTemp() {
         Decimal celsius = ReleaseCandidate.FahrenheitToCelsius(70);
