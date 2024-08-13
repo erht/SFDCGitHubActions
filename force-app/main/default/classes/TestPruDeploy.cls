@@ -16,5 +16,5 @@ public with sharing class TestPruDeploy {
       @isTest static void testNegativeTemp() {
         Decimal celsius = ReleaseCandidate.FahrenheitToCelsius(-10);
         System.assertEquals(-23.33,celsius);
-      } 
+      }   
 }
